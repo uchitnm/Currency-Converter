@@ -1,4 +1,5 @@
-
+#Coded By : UCHIT N M
+#Mentor : SUMANTH L
 
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
@@ -21,7 +22,7 @@ website = f"https://www.google.com/search?q={from_country}currencyto{to_country}
 
 # driver path
 
-path = "/Users/uchitnm/chromedriver" 
+path = "<your driver path>" 
 
 service = Service(executable_path=path)
 driver = webdriver.Chrome(service=service,options=options)
